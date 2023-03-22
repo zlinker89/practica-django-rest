@@ -1,0 +1,10 @@
+[scripts]
+dev = "python manage.py runserver 127.0.0.1:8844"
+make = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
+
+[packages]
+django = "==3.2.10"
+djangorestframework = "==3.14.0"
+django-rest-auth = "*"
+django-allauth = "*"
